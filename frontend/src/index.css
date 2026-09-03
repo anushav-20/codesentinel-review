@@ -1,0 +1,16 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', system-ui, sans-serif; }
+body { background: #0f172a; color: #e2e8f0; }
+.app { max-width: 800px; margin: 0 auto; padding: 32px 20px; }
+header { margin-bottom: 20px; }
+header p { color: #94a3b8; margin-top: 6px; }
+textarea { width: 100%; font-family: monospace; padding: 14px; border-radius: 8px; border: 1px solid #334155; background: #1e293b; color: #fff; }
+.app button { margin-top: 12px; padding: 12px 20px; background: #6366f1; color: #fff; border: none; border-radius: 8px; font-weight: 600; cursor: pointer; }
+.results { margin-top: 24px; }
+.score-card { background: #1e293b; padding: 20px; border-radius: 10px; text-align: center; margin-bottom: 20px; }
+.score { font-size: 2rem; font-weight: 800; }
+.func-card { background: #1e293b; padding: 12px; border-radius: 8px; margin-bottom: 8px; }
+.issue { color: #f97316; font-size: 0.85rem; margin-top: 4px; }
+.finding { background: #1e293b; border-left: 4px solid; padding: 10px 14px; border-radius: 6px; margin-bottom: 8px; }
+.severity { font-size: 0.75rem; font-weight: 700; }
+.finding code { display: block; margin-top: 6px; font-size: 0.8rem; color: #94a3b8; }
+.clean { color: #10b981; }
