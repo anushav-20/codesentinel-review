@@ -22,6 +22,21 @@ Tech Stack: Python, ast (built-in), Flask, React.js
  common vulnerability patterns
 4. Both signals are combined into a single risk score returned by the API
 
+## Sample Output
+
+The chart below is real output from running the analyzer on a small vulnerable
+code sample (not a mockup) - it correctly flags a hardcoded API key, an
+eval() call, and a function with too many parameters:
+
+![Real complexity and security scan output](images/review_report.png)
+
+## Screenshots
+
+Add your own screenshots here once you run the app locally - for example,
+the main dashboard view and one key interaction (e.g. a completed action or
+a filled-in result). Save images under an `images/` folder and reference them
+like: `![Dashboard](images/dashboard.png)`
+
 ## Getting Started
 
 ### Backend
